@@ -9,7 +9,6 @@ def read_file_contents():
     except FileNotFoundError:
         print ("File Is Not Found DickHead")
 
-
     
 result =  read_file_contents()
 print(result)
